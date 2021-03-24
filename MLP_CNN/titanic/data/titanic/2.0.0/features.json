@@ -1,0 +1,104 @@
+{
+    "type": "tensorflow_datasets.core.features.features_dict.FeaturesDict",
+    "content": {
+        "survived": {
+            "type": "tensorflow_datasets.core.features.class_label_feature.ClassLabel",
+            "content": {
+                "num_classes": 2
+            }
+        },
+        "features": {
+            "type": "tensorflow_datasets.core.features.features_dict.FeaturesDict",
+            "content": {
+                "pclass": {
+                    "type": "tensorflow_datasets.core.features.class_label_feature.ClassLabel",
+                    "content": {
+                        "num_classes": 3
+                    }
+                },
+                "name": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "string"
+                    }
+                },
+                "sex": {
+                    "type": "tensorflow_datasets.core.features.class_label_feature.ClassLabel",
+                    "content": {
+                        "num_classes": 2
+                    }
+                },
+                "age": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "float32"
+                    }
+                },
+                "sibsp": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "int32"
+                    }
+                },
+                "parch": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "int32"
+                    }
+                },
+                "ticket": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "string"
+                    }
+                },
+                "fare": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "float32"
+                    }
+                },
+                "cabin": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "string"
+                    }
+                },
+                "embarked": {
+                    "type": "tensorflow_datasets.core.features.class_label_feature.ClassLabel",
+                    "content": {
+                        "num_classes": 4
+                    }
+                },
+                "boat": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "string"
+                    }
+                },
+                "body": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "int32"
+                    }
+                },
+                "home.dest": {
+                    "type": "tensorflow_datasets.core.features.feature.Tensor",
+                    "content": {
+                        "shape": [],
+                        "dtype": "string"
+                    }
+                }
+            }
+        }
+    }
+}
